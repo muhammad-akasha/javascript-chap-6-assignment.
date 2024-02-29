@@ -107,7 +107,7 @@ let sub_1 = prompt ("enter subject no 1");
 
 let sub_2 = prompt ("enter subject no 2");
 
-let sub_3 = prompt ("enter subject no 2");
+let sub_3 = prompt ("enter subject no 3");
 
 let obt_mark_sub_1 = prompt ("enter obtained marks of subject 1");
 
