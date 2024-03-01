@@ -62,103 +62,99 @@ let number = prompt("input any number i will give you a multiplication of a numb
 
   document.write( "<h2>" + number + " *  " + multi + " = " + table_of_given_num + "</h2>");
 
-   table_of_given_num = number * multi++;
+   table_of_given_num = number * ++multi;
    
      document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
 
-   table_of_given_num = number * multi++;
+     table_of_given_num = number * ++multi;
 
-    document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
-
-   table_of_given_num = number * multi++;
+     document.write( "<h2>" + number + " *  " + multi + " = " + table_of_given_num + "</h2>");
    
-    document.write( "<h2>" + number + " * " + multi + " = "  + table_of_given_num + "</h2>");
+      table_of_given_num = number * ++multi;
+      
+        document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
 
-   table_of_given_num = number * multi++;
-   
-    document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
+        table_of_given_num = number * ++multi;
 
-   table_of_given_num = number * multi++;
-   
-    document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
+        document.write( "<h2>" + number + " *  " + multi + " = " + table_of_given_num + "</h2>");
+      
+         table_of_given_num = number * ++multi;
+         
+           document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
 
-   table_of_given_num = number * multi++;
-   
-     document.write( "<h2>" + number +  " * " + multi + " = " + table_of_given_num + "</h2>");
+           table_of_given_num = number * ++multi;
 
-   table_of_given_num = number * multi++;
-   
-     document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
+           document.write( "<h2>" + number + " *  " + multi + " = " + table_of_given_num + "</h2>");
+         
+            table_of_given_num = number * ++multi;
+            
+              document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
 
-   table_of_given_num = number * multi++;
+              table_of_given_num = number * ++multi;
 
-     document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
-
-   table_of_given_num = number * multi++;
-
-    document.write( "<h2>" + number + " * " + multi + " = "  + table_of_given_num + "</h2>");
-
-   table_of_given_num = number * multi++;
+              document.write( "<h2>" + number + " *  " + multi + " = " + table_of_given_num + "</h2>");
+            
+               table_of_given_num = number * ++multi;
+               
+                 document.write( "<h2>" + number + " * " + multi + " = " + table_of_given_num + "</h2>");
 }
 
 
 
-let sub_1 = prompt ("enter subject no 1");
+// let sub_1 = prompt ("enter subject no 1");
 
-let sub_2 = prompt ("enter subject no 2");
+// let sub_2 = prompt ("enter subject no 2");
 
-let sub_3 = prompt ("enter subject no 3");
+// let sub_3 = prompt ("enter subject no 3");
 
-let obt_mark_sub_1 = prompt ("enter obtained marks of subject 1");
+// let obt_mark_sub_1 = prompt ("enter obtained marks of subject 1");
 
-let obt_mark_sub_2 = prompt ("enter obtained marks of subject 2");
+// let obt_mark_sub_2 = prompt ("enter obtained marks of subject 2");
 
-document.getElementById("obt-m2").innerHTML = obt_mark_sub_2;
+// let obt_mark_sub_3 = prompt ("enter obtained marks of subject 3");
 
-let obt_mark_sub_3 = prompt ("enter obtained marks of subject 3");
+// let subject1 = sub_1;
 
-let subject1 = sub_1;
+// document.getElementById("sub-1").innerHTML = subject1;
 
-document.getElementById("sub-1").innerHTML = subject1;
+// let subject2 = sub_2;
 
-let subject2 = sub_2;
+// document.getElementById("sub-2").innerHTML = subject2;
 
-document.getElementById("sub-2").innerHTML = subject2;
+// let subject3 = sub_3;
 
-let subject3 = sub_3;
+// document.getElementById("sub-3").innerHTML = subject3;
 
-document.getElementById("sub-3").innerHTML = subject3;
+// let total_marks = 100;
 
-let total_marks = 100;
+// let obtained_mark_1 = obt_mark_sub_1;
 
-let obtained_mark_1 = obt_mark_sub_1;
+// document.getElementById("obt-m1").innerHTML = obtained_mark_1;
 
-document.getElementById("obt-m1").innerHTML = obtained_mark_1;
+// let obtained_mark_2 = obt_mark_sub_2;
 
-let obtained_mark_2 = obt_mark_sub_2;
+// document.getElementById("obt-m2").innerHTML = obtained_mark_2;
 
-document.getElementById("obt-m2").innerHTML = obtained_mark_2;
+// let obtained_mark_3 = obt_mark_sub_3;
 
-let obtained_mark_3 = obt_mark_sub_3;
+// document.getElementById("obt-m3").innerHTML = obtained_mark_3
 
-document.getElementById("obt-m3").innerHTML = obtained_mark_3
+// let your_result1 = ( obtained_mark_1 / total_marks ) * 100  ;
 
-let your_result1 = ( obtained_mark_1 / total_marks ) * 100  ;
+// document.getElementById("percent1").innerHTML = your_result1 + "%";
 
-document.getElementById("percent1").innerHTML = your_result1 + "%";
+// let your_result2 = ( obtained_mark_2 / total_marks ) * 100  ;
 
-let your_result2 = ( obtained_mark_2 / total_marks ) * 100  ;
+// document.getElementById("percent2").innerHTML = your_result2 + "%";
 
-document.getElementById("percent2").innerHTML = your_result2 + "%";
+// let your_result3 = ( obtained_mark_3 / total_marks ) * 100  ;
 
-let your_result3 = ( obtained_mark_3 / total_marks ) * 100  ;
+// document.getElementById("percent3").innerHTML = your_result3 + "%";
 
-document.getElementById("percent3").innerHTML = your_result3 + "%";
+// total_subject_marks = your_result1 + your_result2 + your_result3 ;
 
-total_subject_marks = your_result1 + your_result2 + your_result3 ;
+// document.getElementById("total1").innerHTML = total_subject_marks;
 
-document.getElementById("total1").innerHTML = total_subject_marks;
+// let total_percentage = (total_subject_marks / 300 ) * 100 ;
 
-let total_percentage = (total_subject_marks / 300 ) * 100 ;
-
-document.getElementById("total2").innerHTML = total_percentage +"%";
+// document.getElementById("total2").innerHTML = total_percentage +"%";
